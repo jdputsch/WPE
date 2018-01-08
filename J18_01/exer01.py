@@ -19,7 +19,6 @@ def get_user_input(travels):
             travels[state][city] += 1
         except ValueError:
             print("That's not a legal city, state combination")
-            pass
     return travels
 
 def travel_report(travels):
